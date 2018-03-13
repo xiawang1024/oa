@@ -1,0 +1,133 @@
+.clearfix::after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    overflow: hidden;
+    height: 0;
+    content: ' '
+}
+
+.layui-layer-setwin .layui-layer-close1 {
+    margin-top: 0
+}
+
+body .left {
+    position: absolute;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.wx-banner {
+    width: 100%;
+    height: 63%;
+    background: url(http://hndt.com/oa/imgs/banner.png) center center no-repeat;
+    /* background-size: cover; */
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.wx-wrap {
+    width: 100%;
+    height: 37%;
+    background: #fff;
+    overflow: hidden;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.wx-wrap .wx-web-wrap {
+    width: 1400px;
+    margin: 40px auto;
+    overflow: hidden
+}
+
+.wx-wrap .wx-web-wrap .wx-web {
+    float: left;
+    margin: 0 48px;
+    height: 100px;
+    border: 1px solid #0081dc;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.wx-wrap .wx-web-wrap .wx-web.marginL0 {
+    margin-left: 0
+}
+
+.wx-wrap .wx-web-wrap .wx-web.marginR0 {
+    margin-right: 0
+}
+
+.wx-wrap .wx-web-wrap .wx-web .link {
+    padding: 6px 10px;
+    font-size: 0
+}
+
+.wx-wrap .wx-web-wrap .wx-web .link .img {
+    vertical-align: middle
+}
+
+.wx-wrap .wx-web-wrap .wx-web .link span {
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle
+}
+
+.wx-wrap .wx-app-wrap {
+    width: 1400px;
+    margin: 40px auto;
+    overflow: hidden
+}
+
+.wx-wrap .wx-app-wrap .wx-app {
+    position: relative;
+    float: left;
+    margin: 0 75px;
+    font-size: 0;
+    cursor: pointer;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.wx-wrap .wx-app-wrap .wx-app.marginL0 {
+    margin-left: 0
+}
+
+.wx-wrap .wx-app-wrap .wx-app.marginR0 {
+    margin-right: 0
+}
+
+.wx-wrap .wx-app-wrap .wx-app .wx-logo .img {
+    width: 85px;
+    height: 85px;
+    padding: 10px;
+    border: 1px solid #b2b2b2;
+    border-radius: 6px
+}
+
+.wx-wrap .wx-app-wrap .wx-app .wx-logo .text {
+    margin-top: 12px;
+    text-align: center;
+    font-size: 13px
+}
+
+.wx-wrap .wx-app-wrap .wx-app .wx-qrcode {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    font-size: 0
+}
+
+.wx-wrap .wx-app-wrap .wx-app .wx-qrcode .img {
+    width: 108px;
+    height: 108px
+}

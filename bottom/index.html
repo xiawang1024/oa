@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="./css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+	<div class="left">
+		<div class="wx-banner"></div>
+		<div class="wx-wrap">
+			<div class="wx-web-wrap clearfix">
+				<div class="wx-web marginL0">
+					<a href="http://www.hndt.com/fusion/" class="link" title="河南广播电视台" target="_blank">
+						<img src="./imgs/0.png" alt="" class="img">
+						<span></span>
+					</a>
+				</div>
+				<div class="wx-web">
+					<a href="http://www.hndt.com/" class="link" title="河南广播网" target="_blank">
+						<img src="./imgs/1.png" alt="" class="img">
+						<span></span>
+					</a>
+				</div>
+				<div class="wx-web">
+					<a href="http://www.hntv.tv/" class="link" title="大象网" target="_blank">
+						<img src="./imgs/2.png" alt="" class="img">
+						<span></span>
+					</a>
+				</div>
+				<div class="wx-web marginR0">
+					<a href="http://www.hnr.cn/" class="link" title="映象网" target="_blank">
+						<img src="./imgs/3.png" alt="" class="img">
+						<span></span>
+					</a>
+				</div>
+			</div>
+			<div class="wx-app-wrap clearfix">
+				<div class="wx-app marginL0">
+					<div class="wx-logo">
+						<img src="./imgs/logo-1.png" alt="" class="img">
+						<p class="text">河南新闻</p>
+					</div>
+					<div class="wx-qrcode">
+						<img src="./imgs/qrcode-2.png" alt="" class="img">
+					</div>
+				</div>
+				<div class="wx-app">
+					<div class="wx-logo">
+						<img src="./imgs/logo-2.png" alt="" class="img">
+						<p class="text">河南广播</p>
+					</div>
+					<div class="wx-qrcode">
+						<img src="./imgs/qrcode-2.png" alt="" class="img">
+					</div>
+				</div>
+				<div class="wx-app">
+					<div class="wx-logo">
+						<img src="./imgs/logo-3.png" alt="" class="img">
+						<p class="text">猛犸新闻</p>
+					</div>
+					<div class="wx-qrcode">
+						<img src="./imgs/qrcode-3.jpg" alt="" class="img">
+					</div>
+				</div>
+				<div class="wx-app">
+					<div class="wx-logo">
+						<img src="./imgs/logo-4.png" alt="" class="img">
+						<p class="text">交广领航</p>
+					</div>
+					<div class="wx-qrcode">
+						<img src="./imgs/qrcode-4.jpg" alt="" class="img">
+					</div>
+				</div>
+				<div class="wx-app">
+					<div class="wx-logo">
+						<img src="./imgs/logo-5.png" alt="" class="img">
+						<p class="text">映象新闻</p>
+					</div>
+					<div class="wx-qrcode">
+						<img src="./imgs/qrcode-5.jpg" alt="" class="img">
+					</div>
+				</div>
+				<div class="wx-app marginR0">
+					<div class="wx-logo">
+						<img src="./imgs/logo-6.png" alt="" class="img">
+						<p class="text">警广之声</p>
+					</div>
+					<div class="wx-qrcode">
+						<img src="./imgs/qrcode-6.png" alt="" class="img">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./js/jquery2.1.4.js"></script>
+	<script>
+		$(function() {			
+			$('.left .wx-app').mouseover(function () {				
+				$(this).find('.wx-qrcode').css('display','block')
+			})
+
+			$('.left .wx-app').mouseout(function () {
+				$(this).find('.wx-qrcode').css('display','none')
+			})
+		})
+	</script>
+</body>
+</html>
