@@ -6,6 +6,9 @@
   height: 0;
   content: ' ';
 }
+.layui-layer-setwin .layui-layer-close1 {
+  margin-top: 0
+}
 body .left {
   position: absolute;
   z-index: 99;
@@ -31,13 +34,13 @@ body .left {
   box-sizing: border-box;
 }
 .wx-wrap .wx-web-wrap {
-  width: 1400px;
+  width: 1200px;
   margin: 40px auto;
   overflow: hidden;
 }
 .wx-wrap .wx-web-wrap .wx-web {
   float: left;
-  margin: 0 48px;
+  margin: 0 50px;
   height: 100px;
   border: 1px solid #0081dc;
   box-sizing: border-box;
@@ -54,6 +57,7 @@ body .left {
 }
 .wx-wrap .wx-web-wrap .wx-web .link .img {
   vertical-align: middle;
+  height: 60px;
 }
 .wx-wrap .wx-web-wrap .wx-web .link span {
   height: 100%;
@@ -61,14 +65,14 @@ body .left {
   vertical-align: middle;
 }
 .wx-wrap .wx-app-wrap {
-  width: 1400px;
+  width: 1200px;
   margin: 40px auto;
   overflow: hidden;
 }
 .wx-wrap .wx-app-wrap .wx-app {
   position: relative;
   float: left;
-  margin: 0 75px;
+  margin: 0 55px;
   font-size: 0;
   cursor: pointer;
   box-sizing: border-box;
